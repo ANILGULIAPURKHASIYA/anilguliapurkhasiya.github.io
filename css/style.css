@@ -1,0 +1,41 @@
+*{margin: 0;
+padding: 0;}
+body{
+	font-family: 'montserrat', sans-serif;
+	 background: url(../images/rapstar.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1 {
+	font-size: 3rem;
+	color:#435d77;
+}
+
+.buffer {
+	height: 50px;
+}
+
+.full{
+	height: 100vh;
+}
+.btn {
+	font-weight: 700;
+	border-radius: 200px;
+	text-transform: uppercase;
+}
+
+.btn-primary {
+	background-color: #28a745;
+	border-color: #28a745;
+}
+.btn-primary:hover {
+	background-color: #ffc107;
+	border-color: #ffc107;
+	border-width: 6px;
+}
+
+.btn-xl {
+	padding: 1rem 2rem;
+}
